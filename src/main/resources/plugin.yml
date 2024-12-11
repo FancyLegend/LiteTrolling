@@ -1,0 +1,14 @@
+name: LiteTrolling
+version: '${version}'
+author: Fancy_Legend
+main: sb.fancylegend.litetrolling.LiteTrolling
+api-version: '1.20'
+
+commands:
+  trolling:
+    usage: /trolling <player> <lags|damage> [value]
+    permission: litetrolling.admin
+
+permissions:
+  litetrolling.admin:
+    default: op
